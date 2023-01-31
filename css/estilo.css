@@ -1,7 +1,7 @@
 body {
     background-color: gainsboro;
 }
-.card, .ocultalo{
+.card, .ocultalo, .boton{
     border:2px solid rgb(137, 144, 112) ;
    }
 .card-title,.profile{
@@ -10,10 +10,15 @@ body {
     font-weight: bold;
 }
 
-.card-body, .ocultalo{
+.card-body, .ocultalo, .boton{
     background: rgb(186, 177, 177);
 }
 
 .ocultalo{
     padding: 18px;
+}
+
+.boton{
+    text-decoration: none;
+    color: black;
 }
