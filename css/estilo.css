@@ -1,0 +1,19 @@
+body {
+    background-color: gainsboro;
+}
+.card, .ocultalo{
+    border:2px solid rgb(137, 144, 112) ;
+   }
+.card-title,.profile{
+    font-family: 'Noto Serif Ahom', serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.card-body, .ocultalo{
+    background: rgb(186, 177, 177);
+}
+
+.ocultalo{
+    padding: 18px;
+}
