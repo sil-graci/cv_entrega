@@ -58,7 +58,7 @@
                     <button class="btn btn-dark  dropdown-toggle btn btn-outline-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"> 
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                      <li><a class="dropdown-item" id="enlace" class="texto" href="javascript:MostrarOcultar('texto1');" class="nav-link " type="button">Ver perfil</a></li>
+                      <li><a class="dropdown-item" href="javascript:mostrar();" class="nav-link " type="button">Ver perfil</a></li>
                       <li><a class="dropdown-item" href="#educacion" type="button">Educación</a></li>
                       <li><a class="dropdown-item" href="#experiencia" type="button">Experiencia laboral</a></li>
                       <li><a class="dropdown-item" href="#habilidades" type="button">Habilidades</a></li>
@@ -71,10 +71,12 @@
     
   <main>
     <div class="container mb-4">
-      <div class="ocultalo" id="texto1" >
-        <h5 class="card-title" >Perfil</h5>
-        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, amet voluptatibus? Blanditiis autem alias natus nostrum culpa enim, aliquid, asperiores reiciendis cum quibusdam harum assumenda ratione temporibus eaque quae adipisci!</p>
-     </div>
+      <div  id="oculto" style="display:none;" >
+        <h5 class="card-title" >Perfil</h5>       
+        <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est cumque et sunt facere dolorem ipsum fugiat error in doloribus! Adipisci molestiae eum aliquam fugit fugiat nobis ex amet mollitia dolores? </p>
+       <div id="close"><a id="cerrar" href="javascript:cerrar();">Ocultar perfil</a></div>
+     
+      </div>
    </div>
     <div class="container ">
       <div class="row row-cols-1 row-cols-md-2 g-4">
